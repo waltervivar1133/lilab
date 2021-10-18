@@ -1,0 +1,28 @@
+@import './loader.css';
+
+
+.font-bold {
+  font-weight: bold;
+  display: flex;
+}
+.italic {
+  font-style: italic;
+  font-size: 15px;
+  display: flex;
+
+}
+
+.text-clamp{
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  display: -webkit-box; 
+  -webkit-line-clamp: 2; 
+ -webkit-box-orient: vertical;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  text-decoration: none !important;
+}
